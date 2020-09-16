@@ -1,3 +1,19 @@
-bblablab
-fslkdjflksja;fjlsdfa;lksjdfjjflks
+def get_bool(lecture_finished):
+    while True:
+        try:
+           return {"true":True,"false":False}[input(lecture_finished).lower()]
+        except KeyError:
+           print ("I asked True or False, it's not that hard.")
+print get_bool("Is your video lecture project finished? True or False.")
+lecture_quality = input("Score your video lecture on a scale of 10:")
 
+if lecture_finished==true and lecture_quality>8:
+	print("send link to timmy(punt)mahieu[atgmailpuntcom")
+else
+	print("continue procrastinating")
+  
+print("This message will self destruct in 10 seconds!")
+print("(please deny the pull request and remove all this in 10 seconds; I have no idea how to make something self destruct on here.)")
+print()
+print("Thanks!")
+print("Timmy")
